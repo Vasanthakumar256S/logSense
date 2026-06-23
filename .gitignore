@@ -15,9 +15,6 @@ venv/
 models/isolation_forest.joblib
 models/faiss_index/
 models/drain_state/
-data/raw/*.log
-data/raw/*.csv
-data/raw/*.zip
 data/raw/preprocessed/
 !data/raw/sample_hdfs.log
 !data/raw/sample_labels.csv
@@ -39,6 +36,3 @@ Thumbs.db
 *.log
 results_*.json
 
-data/raw/*.tar.gz
-data/raw/*.log
-data/raw/HDFS*
